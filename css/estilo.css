@@ -13,13 +13,28 @@ body{
 
 .bgNav{
     background-color:rgba(189, 198, 161);
+    .logo{
+        padding-top:10px;
+        width: 60px;
+        margin-left: 15px;
+    }
+    .navbar-nav{
+        .nav-link.colorLadrillo{
+            color:rgb(107, 59, 11);
+            &:hover{
+                color:rgb(163, 87, 10);
+                border-bottom: 1px solid rgb(163, 87, 10);
+            }
+        }
+        .nav-link.colorLadrilloClaro{
+            color:rgb(163, 87, 10);
+            &:hover{
+                border-bottom: 1px solid rgb(163, 87, 10);
+            }
+        }
+    }
 }
 
-.logo{
-    padding-top:10px;
-    width: 60px;
-    margin-left: 15px;
-}
 
 
 .card-img-top{
@@ -27,3 +42,4 @@ body{
     height: 20vw;
     object-fit: cover;
 }
+

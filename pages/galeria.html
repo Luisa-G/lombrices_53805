@@ -10,28 +10,48 @@
         <link rel="stylesheet" href="../css/estilo.css">
     </head>
     <body>
-        <header class="header">
-            <a href="../index.html">
-                <img class="logo" src="../assets/img/logo_lombriz.png" alt="Logo de una flor y una lombriz saliendo de la tierra" loading="lazy">
-            </a>            
-            <nav>
-                <ul class="listaNavHeader">
-                    <li><a class="linkNav" href="../index.html">INICIO </a></li>
-                    <li><a class="linkNav" href="./nosotros.html">NOSOTROS </a></li>
-                    <li><a class="linkNav" href="./proceso.html">PROCESO </a></li>
-                    <li><a class="linkNav" href="./galeria.html">GALERÍA </a></li>
-                    <li><a class="linkNav" href="./contacto.html">CONTACTO </a></li>
-                </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bgNav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="logo" src="../assets/img/logo_lombriz.png" alt="Logo de una flor y una lombriz saliendo de la tierra">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link colorLadrillo fs-6" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorLadrillo fs-6" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorLadrillo fs-6" href="./proceso.html">PROCESO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorLadrilloClaro fs-6" href="./galeria.html">GALERÍA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorLadrillo fs-6" href="./contacto.html">CONTACTO</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
+            <div>
+                <h1>Galería de nuestros productos</h1>
+            </div>
             <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
                     <div class="card h-50">
                         <img src="../assets/img/costal.jpg" class="card-img-top" alt="Persona utilizando una pala para echar tierra en un costal" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Costal de humus</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">El humus, el producto final de la lombricomposta y otros procesos de descomposición orgánica, es un valioso recurso para el suelo y las plantas.</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +60,7 @@
                         <img src="../assets/img/lombrices.jpg" class="card-img-top" alt="Pala con lombrices encima, colocanda arriba de tierra" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Grupo de lombrices</h5>
-                            <p class="card-text">This is a short card.</p>
+                            <p class="card-text">Las lombrices excavan túneles en el suelo mientras se mueven, lo que mejora su estructura y promueve una mejor aireación. Estos túneles también facilitan el drenaje del agua, previniendo la compactación del suelo y permitiendo que las raíces de las plantas se extiendan más fácilmente.</p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +69,7 @@
                         <img src="../assets/img/harina.jpg" class="card-img-top" alt="Saco con harina de lombriz" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Harina de lombriz</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">La harina de lombriz es una excelente fuente de proteínas de alta calidad. Contiene todos los aminoácidos esenciales que el cuerpo humano necesita, lo que la convierte en una opción nutricionalmente completa para personas que siguen dietas vegetarianas o veganas.</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +78,7 @@
                         <img src="../assets/img/albahaca.jpg" class="card-img-top" alt="Maceta con una planta de albahaca" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Plantas aromáticas con humus de lombriz</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">El humus es un componente esencial para la salud y el crecimiento óptimo de las plantas, proporcionando nutrientes, mejorando la estructura del suelo, aumentando la retención de agua, estabilizando el pH del suelo y promoviendo una mayor actividad microbiana.</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +87,7 @@
                         <img src="../assets/img/lombricompostera.jpeg" class="card-img-top" alt="Pila de tres cubetas, que se usan como lombricomposteras" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Lombricompostera</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"> Las lombricomposteras de cubetas apiladas están diseñadas para ocupar poco espacio verticalmente, lo que las hace ideales para hogares con espacio limitado. Al apilar las cubetas verticalmente, se aprovecha al máximo el espacio disponible.</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +96,7 @@
                         <img src="../assets/img/contenedorjpg.jpg" class="card-img-top" alt="Tabla de picar con verduras encima, una planta a un lado y al otro, un contenedor metálico para composta" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">Contenedor para residuos orgánicos</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Un contenedor para composta en la cocina es una excelente manera de reducir los desechos orgánicos y convertirlos en fertilizante natural para tus plantas.</p>
                         </div>
                     </div>
                 </div>
