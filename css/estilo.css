@@ -11,6 +11,7 @@ body{
 
 }
 
+
 /*estilos header*/
 
 .bgNav{
@@ -36,6 +37,7 @@ body{
         }
     }
 }
+
 
 /*estilos footer*/
 
@@ -74,9 +76,34 @@ footer{
     font-size: 1.5rem;
 }
 
+/*estilos index*/
+
+.intro{
+    color: rgb(151, 189, 37);
+    font-weight: bold;
+    background-image: url(../assets/img/compost-still-life-concept.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:40vh;
+    padding:0px 0px 0px 180px;
+    box-sizing: border-box; 
+}
+
+
 /*estilos galeria*/
+
 .card-img-top{
     width: 100%;
-    height: 20vw;
+    height: auto;
     object-fit: cover;
 }
+
+
+/*estilos titulos*/
+
+.tituloPagina{
+    background-color: rgba(213, 199, 185);
+    text-align: center;
+}
+
