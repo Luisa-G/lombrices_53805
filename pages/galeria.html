@@ -105,34 +105,42 @@
 
         </main>
         <footer class="footer">
-            <a href="../index.html">
-                <img class="logo" src="../assets/img/logo_lombriz.png" alt="Logo de una flor y una lombriz saliendo de la tierra">
-            </a>            
-            <nav>
-                <h4>Contenidos</h4>
-                <ul class="listaNavFooter">
-                    <li><a class="linkNav" href="../index.html">INICIO</a></li>
-                    <li><a class="linkNav" href="./nosotros.html">NOSOTROS</a></li>
-                    <li><a class="linkNav" href="./proceso.html">PROCESO</a></li>
-                    <li><a class="linkNav" href="./galeria.html">GALERÍA</a></li>
-                    <li><a  class="linkNav" href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <section id="unete">
-                <h4>Únete a nosotros</h4>
-                <form action="./404.html" method="post">
-                    <input type="email" placeholder="ejemplo@mail.com" required id="email" name="email">
-                    <input type="submit" value="Únete">
-                </form>
-            </section>
-            <section>
-                <h4>Conecta con nosotros</h4>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            </section>
-            <div>
-                &copy; Todos los derechos reservados
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="d-none d-md-block col-md-4">
+                        <h4 class="fs-6">Contenidos</h4>
+                        <ul class="listaNavFooter">
+                            <li><a class="linkNav" href="../index.html">INICIO</a></li>
+                            <li><a class="linkNav" href="./nosotros.html">NOSOTROS</a></li>
+                            <li><a class="linkNav" href="./proceso.html">PROCESO</a></li>
+                            <li><a class="linkNav" href="./galeria.html">GALERÍA</a></li>
+                            <li><a class="linkNav" href="./contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-md-block col-md-4">
+                        <section id="unete">
+                            <h4 class="fs-6">Únete a nosotros</h4>
+                            <form action="./pages/404.html" method="post">
+                                <input type="email" placeholder="ejemplo@mail.com" required id="email" name="email">
+                                <input type="submit" value="Únete">
+                            </form>
+                        </section>
+                    </div>
+                    <div class="col col-md-4">
+                        <h4 class="fs-6">Conecta con nosotros</h4>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <a href="#">
+                        <img class="logo" src="../assets/img/logo_lombriz.png" alt="Logo de una flor y una lombriz saliendo de la tierra">
+                    </a>
+                </div>
+                <div class="row justify-content-center mb-2">
+                    &copy; Todos los derechos reservados
+                </div>
             </div>
         </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
