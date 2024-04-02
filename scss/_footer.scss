@@ -1,0 +1,35 @@
+
+
+footer{
+    background-color: $color-fondo-verde;
+    color: $color-principal;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+    .listaNavFooter{
+        list-style: none;
+        .linkNav{
+            text-decoration: none;
+            color: $color-principal;
+        }
+    }
+    .logo{
+        padding-top: $t-10px;
+        width: $t-60px;
+    }
+    .fa-instagram{
+        color:rgb(245, 18, 107);
+        font-size: 1.5rem;
+    }
+    
+    .fa-facebook{
+        color:rgb(8, 102, 255);
+        font-size: 1.5rem;
+    }
+    
+    .fa-whatsapp{
+        color:rgb(37, 211, 102);
+        font-size: 1.5rem;
+    }
+
+}

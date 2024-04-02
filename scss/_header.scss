@@ -1,0 +1,25 @@
+
+
+.bgNav{
+    background-color: $color-fondo-verde;
+    .logo{
+        padding-top: $t-10px;
+        width: $t-60px;
+        margin-left: 15px;
+    }
+    .navbar-nav{
+        .nav-link.colorLadrillo{
+            color: $color-principal;
+            &:hover{
+                color: $color-secundario;
+                border-bottom: 1px solid $color-secundario;
+            }
+        }
+        .nav-link.colorLadrilloClaro{
+            color: $color-secundario;
+            &:hover{
+                border-bottom: 1px solid $color-secundario;
+            }
+        }
+    }
+}
