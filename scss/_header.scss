@@ -3,8 +3,8 @@
 .bgNav{
     background-color: $color-fondo-verde;
     .logo{
-        padding-top: $t-10px;
-        width: $t-60px;
+        padding-top: map-get($sizes,diez);
+        width: map-get($sizes,60);
         margin-left: 15px;
     }
     .navbar-nav{

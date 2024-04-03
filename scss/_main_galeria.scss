@@ -1,0 +1,24 @@
+
+
+.bordesGaleria{
+    @include bordesGaleria(thick,$color-fondo-claro);
+    .card{
+        background-color: $color-fondo-claro;
+        border: none;
+        .contenedorImagen{
+            width:100%;
+            height:100%;
+            justify-content: center;
+            background-color: $color-fondo-claro;
+            img{
+                width:100%;
+                height:100%;
+                object-fit: cover;
+                border-radius: 25px;
+            }
+        }
+    }
+}
+
+
+

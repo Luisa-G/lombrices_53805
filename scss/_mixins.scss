@@ -1,0 +1,6 @@
+@mixin bordesGaleria($grueso,$color){
+    border-width:$grueso;
+    border-color:$color;
+    border-radius: 25px;
+    padding: 20px;
+}

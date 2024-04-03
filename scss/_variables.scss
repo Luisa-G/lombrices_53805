@@ -1,12 +1,20 @@
 
 
 
+
 $color-principal:#6B3B0B;
 $color-secundario:#A3570A;
 $color-terciario:#66dd98;
 $color-fondo-verde:#C2CDA5;
-$color-fondo-claro:#D5C7B9;
+$color-fondo-claro:#EFE0D2;
+$color-fondo-titulo:#D5C7B9;
 
-$t-10px:10px;
-$t-60px:60px;
 
+$sizes:(
+    diez:10px,
+    veinte:20px,
+    treinta:30px,
+    40:40px,
+    50:50px,
+    60:60px
+)

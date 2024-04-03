@@ -14,8 +14,8 @@ footer{
         }
     }
     .logo{
-        padding-top: $t-10px;
-        width: $t-60px;
+        padding-top: map-get($sizes,diez);
+        width: map-get($sizes,60);
     }
     .fa-instagram{
         color:rgb(245, 18, 107);

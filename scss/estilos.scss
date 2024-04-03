@@ -1,32 +1,11 @@
 
 @import 'variables';
-
+@import 'mixins';
 @import 'reset';
+@import 'utilitarias';
 @import 'header';
 @import 'main_index';
+@import 'main_galeria';
 @import 'footer';
-@import 'utilitarias';
+@import 'mediaqueries';
 
-
-
-
-
-
-/*estilos galeria*/
-
-.card-img-top{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-
-
-/*estilos tamaño de video en mobile*/
-
-@media screen and (max-width: 768px){
-    .videoSize{
-        max-width: 400px;
-        height: auto;
-    }
-}
