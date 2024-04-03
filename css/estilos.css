@@ -65,12 +65,17 @@ body {
   height: 100%;
   justify-content: center;
   background-color: #EFE0D2;
+  overflow: hidden;
 }
 .bordesGaleria .card .contenedorImagen img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 25px;
+  transition: transform 0.2s ease-in;
+}
+.bordesGaleria .card .contenedorImagen img:hover {
+  transform: scale(1.2);
 }
 
 footer {
