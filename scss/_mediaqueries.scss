@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 768px){
     .videoSize{
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
     }
 }
@@ -9,5 +9,12 @@
 @media screen and (min-width: 768px){
     .fontSize{
         font-size:20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mapSize{
+        max-width: 300px;
+        height: auto;
     }
 }
