@@ -21,6 +21,11 @@ body {
   color: #6B3B0B;
 }
 
+.subtitulo {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
 .bgNav {
   background-color: #C2CDA5;
 }
