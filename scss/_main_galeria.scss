@@ -5,16 +5,18 @@
     .card{
         background-color: $color-fondo-claro;
         border: none;
+        overflow: hidden;
+        text-align: justify;
         .contenedorImagen{
-            width:100%;
-            height:100%;
-            justify-content: center;
+            justify-content: around;
             background-color: $color-fondo-claro;
             overflow: hidden;
+            object-fit: cover;
             img{
                 width:100%;
                 height:100%;
                 object-fit: cover;
+                overflow: hidden;
                 border-radius: 25px;
                 transition: transform 0.2s ease-in;
                 &:hover{
